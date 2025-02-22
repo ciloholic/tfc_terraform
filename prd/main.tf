@@ -9,3 +9,5 @@ terraform {
 }
 
 resource "null_resource" "prd" {}
+
+resource "null_resource" "prd_2" {}

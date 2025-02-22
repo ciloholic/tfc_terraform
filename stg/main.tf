@@ -8,4 +8,4 @@ terraform {
   }
 }
 
-resource "null_resource" "stg" {}
+resource "null_resource" "stg_1" {}

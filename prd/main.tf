@@ -10,8 +10,6 @@ terraform {
 
 resource "null_resource" "prd_1" {}
 
-resource "null_resource" "prd_2" {}
-
 data "http" "ipinfo" {
   url = "https://ipinfo.io"
 
